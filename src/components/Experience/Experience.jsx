@@ -10,18 +10,18 @@ const Experience = () => {
       <div className="achievement">
         {/* darkMode */}
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>8+</div>
-        <span  style={{color: darkMode?'white':''}}>years </span>
-        <span>Experience</span>
+        <span  style={{color: darkMode?'white':''}}>Tahun </span>
+        <span>Pengalaman</span>
       </div>
       <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>20+</div>
-        <span  style={{color: darkMode?'white':''}}>completed </span>
+        <span  style={{color: darkMode?'white':''}}>Mengerjakan </span>
         <span>Projects</span>
       </div>
       <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>5+</div>
-        <span  style={{color: darkMode?'white':''}}>companies </span>
-        <span>Work</span>
+        <span  style={{color: darkMode?'white':''}}>UMKM </span>
+        <span>Kerja</span>
       </div>
     </div>
   );

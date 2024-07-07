@@ -69,6 +69,30 @@ const Services = () => {
           transition={transition}
         >
           <Card
+            emoji={Glasses}
+            heading={"Developer"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+          />
+        </motion.div>
+        {/* 3rd */}
+        <motion.div
+          initial={{ top: "19rem", left: "25rem" }}
+          whileInView={{ left: "12rem" }}
+          transition={transition}
+        >
+          <Card
+            emoji={Glasses}
+            heading={"Developer"}
+            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+          />
+        </motion.div>
+        {/* 3rd */}
+        <motion.div
+          initial={{ top: "19rem", left: "25rem" }}
+          whileInView={{ left: "12rem" }}
+          transition={transition}
+        >
+          <Card
             emoji={Humble}
             heading={"UI/UX"}
             detail={
